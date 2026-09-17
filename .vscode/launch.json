@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "bulk_credential_import: lab_test.csv",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulk_credential_import.py",
+            "console": "integratedTerminal",
+            "args": [
+                "${workspaceFolder}/lab_test.csv",
+                "--network-id", "251662",
+                "--api-key", "yiul-wxlsd-5rz4"
+            ]
+        }
+    ]
+}
